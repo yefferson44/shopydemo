@@ -5,7 +5,13 @@
   {% render 'header-dropdown-menu' %}
 {% endcomment %}
 
-<nav class="header__inline-menu izoferd">
+{% style  %} 
+   .list-menu.list-menu--inline li:hover{
+    text-decoration:overline;
+   }
+{% endstyle %}
+
+<nav class="header__inline-menu izofer">
   <ul class="list-menu list-menu--inline" role="list">
     {%- for link in section.settings.menu.links -%}
       <li>

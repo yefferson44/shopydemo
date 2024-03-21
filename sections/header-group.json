@@ -13,8 +13,7 @@
                 "announcement-bar-0": {
                     "settings": {
                         "link": "",
-                        "text": "Welcome to Mercarcade Store",
-                        "background":"black"
+                        "text": "Welcome to Mercarcade Store"
                     },
                     "type": "announcement"
                 }
